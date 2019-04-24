@@ -8,12 +8,12 @@
         display: grid;
         //grid-template-columns: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
-        // grid-gap: 6rem;
+        grid-gap: 6rem;
         align-items: start;
     }
 }
 
-
+    //to center text try placing it in the middle column above !!
 .feature {
 
     float: left;
@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 1.5rem;
+    grid-gap: 1rem;
     grid-column-gap: 2.5rem;
 
     // &__icon {
