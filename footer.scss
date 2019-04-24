@@ -1,0 +1,9 @@
+.footer {
+    background-color: $color-secondary;
+    grid-column: leftside-start / -1;
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: center-start / center-end;
+    }
+}
